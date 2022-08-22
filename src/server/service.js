@@ -15,7 +15,7 @@ export class AppService {
     this.path = path;
     this.params = params;
   }
-d
+
   async getMethod() {
     try {
       let res = await axiosInstance.get(this.path);
